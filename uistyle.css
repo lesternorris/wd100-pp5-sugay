@@ -1,0 +1,156 @@
+body{
+
+    background-color: black;
+
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+}
+
+/* NAVBAR START */
+
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #555; 
+    color: #ffcc00; 
+    text-decoration: none; 
+}
+
+
+
+.navbar .d-flex .nav-link:hover {
+    background-color: #555; 
+    color: #ffcc00; 
+    text-decoration: none; 
+}
+
+
+
+.ms-3 {
+    margin-left: 2rem !important; 
+    margin-right: 2rem;
+}
+.dropdown-menu {
+    background-color: #000 !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.dropdown-item:hover {
+    background-color: #ffcc00 !important; 
+    color: #000 !important;
+}
+
+
+/* START OF VIDEO */
+
+
+.video-container{
+    position: relative;
+
+}
+
+.video-text {
+    position: absolute; /* Position the text absolutely within the parent */
+    top: 70px; /* Position the text vertically centered */
+    left: 50%; /* Position the text horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    color: white; /* Set the text color */
+    font-size: 80px; /* Set the font size */
+    text-align: center; /* Center-align the text */
+    z-index: 10; /* Ensure the text is above the video */
+    text-shadow: 2px 10px 2px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    
+}
+.banner-text {
+    position: absolute; /* Position the paragraph absolutely within the parent */
+    top: 450px; /* Adjust the top position as needed */
+    left: 50%; /* Position the paragraph horizontally centered */
+    transform: translate(-50%, -50%); /* Center the paragraph both horizontally and vertically */
+    color: white; /* Set the text color */
+    font-size: 80px; /* Set the font size */
+    text-align: center; /* Center-align the text */
+    z-index: 10; /* Ensure the text is above the video */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black !important;
+    
+}
+
+
+
+/* START OF VIDEO */
+
+
+/* START FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+footer .social-icons a:hover {
+    color: black;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* FOOTER END */
+
+.card-img-top {
+    width: 100%;
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.hover-img {
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .hover-img:hover {
+    transform: scale(1.1);
+  }

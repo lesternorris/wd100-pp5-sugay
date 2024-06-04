@@ -1,0 +1,56 @@
+/* Custom CSS for black background and white fonts */
+
+body {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set font color to white */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Set background color for the card with some opacity */
+    border: 1px solid #fff; /* Add border to the card */
+}
+
+.card h1,
+.card h3 {
+    color: #fff; /* Set color for headings */
+}
+
+.card-body {
+    padding: 20px; /* Add padding to the card body */
+}
+
+.row {
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+/* Add some styles for form labels */
+label {
+    color: #fff; /* Set color for form labels */
+    margin-bottom: 5px; /* Add margin below form labels */
+}
+
+/* Add some styles for form inputs */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Set background color for form inputs with some opacity */
+    color: #fff; /* Set font color for form inputs */
+    border: 1px solid #fff; /* Add border to form inputs */
+    border-radius: 5px; /* Add border radius to form inputs */
+    padding: 8px; /* Add padding to form inputs */
+    margin-bottom: 10px; /* Add margin below form inputs */
+}
+
+/* Add some styles for buttons */
+.btn-primary {
+    background-color: #007bff; /* Set background color for primary button */
+    border-color: #007bff; /* Set border color for primary button */
+    padding: 10px 20px; /* Add padding to buttons */
+    border-radius: 5px; /* Add border radius to buttons */
+    cursor: pointer; /* Set cursor style to pointer */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+.col-md-12 {
+    text-align: center; /* Center-align the content within the column */
+}
